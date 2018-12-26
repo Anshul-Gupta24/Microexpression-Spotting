@@ -9,10 +9,10 @@
 #### This saves the cropped and aligned frames to a folder 'aligned_frames'.
 
 #### To display frames exhibiting micro-expressions:
-#### >>python get_features.py aligned_frames </br>
+#### >>python get_features.py aligned_frames </br> </br>
 
 ### To Do
-#### Implement mechanism to set threshold. </br>
+#### Implement mechanism to set threshold. </br> </br>
 
 
 ### References
