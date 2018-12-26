@@ -8,7 +8,7 @@
 
 #### This saves the cropped and aligned frames to a folder 'aligned_frames'.
 
-#### To display frames exhibiting micro-expressions:
+#### To get frames exhibiting micro-expressions:
 #### >>python get_features.py aligned_frames </br> </br>
 
 ### To Do
