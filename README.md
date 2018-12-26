@@ -4,7 +4,7 @@
 
 ### Running the Code
 #### To extract the face from the input video:
-#### ```>>python project.py \<input video\>```
+#### ```>>python project.py <input video>```
 
 #### This saves the cropped and aligned frames to a folder 'aligned_frames'.
 
