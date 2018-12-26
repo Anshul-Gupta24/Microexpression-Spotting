@@ -12,8 +12,7 @@ def chisquared(a,b):
 		#print x,y
 		if(x+y>0):
 			chi += (float(x-y)**2 / float(x+y))
-		#print type(chi)
-
+		
 	return chi
 
 
