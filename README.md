@@ -2,6 +2,7 @@
 
 #### The approach uses a sliding window mechanism centered around the current frame. HOG features are extracted from the current frame, and compared with the average of the HOG features from the first and last frame in the window to spot frames exhibiting micro-expressions.
 
+### Running the Code
 #### To extract the face from the input video:
 #### >>python project.py <input video>
 
