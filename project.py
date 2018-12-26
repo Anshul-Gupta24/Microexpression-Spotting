@@ -1,8 +1,8 @@
 '''
-Align faces using opencv dlib library. Code modified to process a folder of frames.
+Extract and align faces using opencv dlib library. 
 
 Usage:
->> python project2.py <foldername>
+>> python project.py <foldername>
 
 Output:
 ./aligned_frames
@@ -49,6 +49,10 @@ for img in os.listdir(folder_name):
 		# of the top, left, right and bottom edges
 		print("- Face #{} found at Left: {} Top: {} Right: {} Bottom: {}".format(i, face_rect.left(), face_rect.top(), face_rect.right(), face_rect.bottom()))
 
+		#
+		#	Optional Alignment of faces
+		#
+		
 		# Get the the face's pose
 		#pose_landmarks = face_pose_predictor(image, face_rect)
 
