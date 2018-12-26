@@ -4,12 +4,12 @@
 
 ### Running the Code
 #### To extract the face from the input video:
-#### >>python project.py \<input video\>
+#### ```>>python project.py \<input video\>```
 
 #### This saves the cropped and aligned frames to a folder 'aligned_frames'.
 
 #### To get frames exhibiting micro-expressions:
-#### >>python get_features.py aligned_frames </br> </br>
+#### ```>>python get_features.py aligned_frames``` </br> </br>
 
 ### To Do
 #### Implement mechanism to set threshold. </br> </br>
